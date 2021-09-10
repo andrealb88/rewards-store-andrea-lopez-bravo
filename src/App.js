@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useContext } from "react";
 import "./App.css";
+import { AppConotext } from "./context/AppConotext";
 
 function App() {
   return (
