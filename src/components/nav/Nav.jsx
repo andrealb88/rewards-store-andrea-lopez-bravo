@@ -7,6 +7,10 @@ export const Nav =(props) =>{
         <div className="container-logo">
         <img src="./images/aerolab-logo.svg" alt="logo" />
             </div>
+            <div className="user-points flex-row-center">
+                <h3 className="username">John Kite</h3>
+                {/* Put here user request api */}
+            </div>
             </nav>
     )
 }
