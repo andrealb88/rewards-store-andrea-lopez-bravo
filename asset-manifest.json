@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rewards-store-andrea-lopez-bravo/static/css/main.50306a01.chunk.css",
-    "main.js": "/rewards-store-andrea-lopez-bravo/static/js/main.2cbaa6c2.chunk.js",
-    "main.js.map": "/rewards-store-andrea-lopez-bravo/static/js/main.2cbaa6c2.chunk.js.map",
+    "main.js": "/rewards-store-andrea-lopez-bravo/static/js/main.f62b13b8.chunk.js",
+    "main.js.map": "/rewards-store-andrea-lopez-bravo/static/js/main.f62b13b8.chunk.js.map",
     "runtime-main.js": "/rewards-store-andrea-lopez-bravo/static/js/runtime-main.917f9ade.js",
     "runtime-main.js.map": "/rewards-store-andrea-lopez-bravo/static/js/runtime-main.917f9ade.js.map",
     "static/js/2.9c1b7448.chunk.js": "/rewards-store-andrea-lopez-bravo/static/js/2.9c1b7448.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.917f9ade.js",
     "static/js/2.9c1b7448.chunk.js",
     "static/css/main.50306a01.chunk.css",
-    "static/js/main.2cbaa6c2.chunk.js"
+    "static/js/main.f62b13b8.chunk.js"
   ]
 }
