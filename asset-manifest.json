@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rewards-store-andrea-lopez-bravo/static/css/main.50306a01.chunk.css",
+    "main.css": "/rewards-store-andrea-lopez-bravo/static/css/main.32234fed.chunk.css",
     "main.js": "/rewards-store-andrea-lopez-bravo/static/js/main.f62b13b8.chunk.js",
     "main.js.map": "/rewards-store-andrea-lopez-bravo/static/js/main.f62b13b8.chunk.js.map",
     "runtime-main.js": "/rewards-store-andrea-lopez-bravo/static/js/runtime-main.917f9ade.js",
@@ -10,13 +10,13 @@
     "static/js/3.22ee2b18.chunk.js": "/rewards-store-andrea-lopez-bravo/static/js/3.22ee2b18.chunk.js",
     "static/js/3.22ee2b18.chunk.js.map": "/rewards-store-andrea-lopez-bravo/static/js/3.22ee2b18.chunk.js.map",
     "index.html": "/rewards-store-andrea-lopez-bravo/index.html",
-    "static/css/main.50306a01.chunk.css.map": "/rewards-store-andrea-lopez-bravo/static/css/main.50306a01.chunk.css.map",
+    "static/css/main.32234fed.chunk.css.map": "/rewards-store-andrea-lopez-bravo/static/css/main.32234fed.chunk.css.map",
     "static/js/2.9c1b7448.chunk.js.LICENSE.txt": "/rewards-store-andrea-lopez-bravo/static/js/2.9c1b7448.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.917f9ade.js",
     "static/js/2.9c1b7448.chunk.js",
-    "static/css/main.50306a01.chunk.css",
+    "static/css/main.32234fed.chunk.css",
     "static/js/main.f62b13b8.chunk.js"
   ]
 }
