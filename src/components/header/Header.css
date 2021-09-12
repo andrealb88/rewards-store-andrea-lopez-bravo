@@ -13,3 +13,15 @@
   z-index: 9999;
   margin-left: 10%;
 }
+
+@media (min-width: 600px) {
+  .header {
+    height: 260px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header {
+    height: 365px;
+  }
+}
