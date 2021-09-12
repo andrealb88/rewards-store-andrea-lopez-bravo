@@ -10,6 +10,6 @@
   color: var(--white);
   font-size: 40px;
   transform: translateY(-135%);
-  z-index: 9999;
+  z-index: 1;
   margin-left: 10%;
 }
