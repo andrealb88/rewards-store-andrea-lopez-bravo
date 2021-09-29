@@ -1,4 +1,5 @@
 import "./Detail.css"
+import React from "react"
 
 export const Details =(props)=>{
     return(

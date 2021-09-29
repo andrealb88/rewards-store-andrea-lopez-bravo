@@ -1,0 +1,14 @@
+.details {
+  display: flex;
+  background: var(--grey);
+  border-radius: 20.5px;
+  padding-left: 3%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  height: 50%;
+  align-items: center;
+}
+.normal-text {
+  padding-right: 5%;
+}
