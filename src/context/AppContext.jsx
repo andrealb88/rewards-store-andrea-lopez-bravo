@@ -1,4 +1,5 @@
 import React,{ useState } from "react";
+// import { usePagination } from "../utils/pagination";
 
 
 export const AppContext = React.createContext();
@@ -7,6 +8,9 @@ export const AppContext = React.createContext();
 export default function AppProvider({ children }) {
     const [user,setUser] = useState({})
     const [points, setPoints] = useState(0)
+    const [products, setProducts] = useState([])
+
+    let totalProducts = products.length
 
     const handlerAddPoint =(value)=>{
         let newUser = {...user}
@@ -25,7 +29,11 @@ export default function AppProvider({ children }) {
             handlerAddPoint, 
             handlerSubtractPoint, 
             points,
-            setPoints,  }}>
+            setPoints,  
+            products, 
+            setProducts, 
+            totalProducts,
+            }}>
              {children}
         </AppContext.Provider>
 
