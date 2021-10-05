@@ -1,4 +1,4 @@
-import "./Selector.css";
+import "./Processor.css";
 import React, { useContext, useEffect } from "react";
 import { AppContext } from "../../context/AppContext";
 import { addPoints } from "../../services/points";
