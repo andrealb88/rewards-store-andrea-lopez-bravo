@@ -37,14 +37,3 @@
     object-fit: cover;
   }
 }
-
-/* 
-.details {
-  display: -ms-flexbox;
-  display: flex;
-  background: var(--grey);
-  border-radius: 20.5px;
-  padding: 2%;
-  height: 50%;
-  -ms-flex-align: center;
-  align-items: center; */

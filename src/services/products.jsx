@@ -1,4 +1,4 @@
-import {BASE_URL} from "./constant"
+import {BASE_URL,headers} from "./constant"
 import React from "react"
 
 export const getProducts = async()=> {
