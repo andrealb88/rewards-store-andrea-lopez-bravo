@@ -11,7 +11,6 @@ export const Result =()=>{
             {
                 paginationList.currentData().length > 0 ?
                 paginationList.currentData().map((product, index) => 
-
                <ProductCard 
                     key={index}
                     id={product._id}
@@ -19,8 +18,11 @@ export const Result =()=>{
                     name={product.name}
                     category={product.category}
                     points={product.cost}
-                />) : null 
+                />) : null   
+               
             }
-        </main>
+            
+        </main>       
     )
-}
+}  
+console.log(map(product,index));

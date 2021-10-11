@@ -20,6 +20,7 @@ export const Selector =(props)=>{
               setProducts(prod)
               })
         }, [setProducts])
+        console.log(setProducts)
     return(
         <div className="container-selector flex-row center">
             <button value={points} onClick={()=>handlePoint(props.value)} className="selector normal-text">{props.description}</button>  
