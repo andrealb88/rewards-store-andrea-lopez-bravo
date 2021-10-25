@@ -10,20 +10,23 @@ export default function AppProvider({ children }) {
     const [points, setPoints] = useState(0)
     const [products, setProducts] = useState([])
     const [reedemStatus, setReedemStatus] = useState({})
+    const [history, setHistory] = useState([])
     console.log(products)
 
     const paginationList = usePagination(products, 16)
+    const paginationHistoryList = usePagination(history, 16)
 
-    let totalProducts = products.length
+    const totalProducts = products.length
+    const totalHistory = history.length
 
     const handlerAddPoint =(value)=>{
-        let newUser = {...user}
+        const newUser = {...user}
         newUser.points = user.points + value
         setUser(newUser)
       }
     
       const handlerSubtractPoint =(points)=>{
-        let newUser = {...user}
+        const newUser = {...user}
         newUser.points = user.points - points
         setUser(newUser)
       }
@@ -39,10 +42,12 @@ export default function AppProvider({ children }) {
             totalProducts,
             paginationList,
             reedemStatus, 
-            setReedemStatus
-            }}>
+            setReedemStatus,
+            history,
+             setHistory, 
+             paginationHistoryList,
+             totalHistory}}>
              {children}
         </AppContext.Provider>
-
     );
 }

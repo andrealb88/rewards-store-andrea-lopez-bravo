@@ -1,7 +1,7 @@
 import "./Product.css";
 import React, { useState, useContext } from "react";
 import { AppContext } from "../../context/AppContext";
-import { Details } from "../details/Details";
+import { Details } from "../detail/Detail";
 import { SelectedProduct } from "./SelectedProduct";
 
 export const ProductCard =(props)=>{
@@ -10,7 +10,7 @@ export const ProductCard =(props)=>{
     
     const handleHover =()=>{setHover(!hover)}
 
-    let neededPoints = props.points - user.points
+    const neededPoints = props.points - user.points
     
     return (
         <div className="product flex-column center" onMouseEnter={handleHover} onMouseLeave={handleHover}>

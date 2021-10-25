@@ -1,26 +1,26 @@
 import "./Filter.css";
 import React, { useContext } from "react";
 import { AppContext } from "../../context/AppContext";
-// import { BtnText} from "../button/BtnText";
+import { BtnText} from "../button/Button";
 import { Pagination } from "../pagination/Pagination";
-import { filterByAvailability, sortByLowestPrice, sortByhighestPrice } from "../../utils/filters";
+import { filterByAvailability, sortByLowestPrice, sortByhighestPrice } from "../utils/filters";
 import { getProducts } from "../../services/products";
 
 export const Filter =()=>{
     const { totalProducts, user, setProducts, paginationList, products } = useContext(AppContext);
 
     const handleFilterByAvailability =()=>{
-        let resultByAvailability = filterByAvailability(products,user)
+        const resultByAvailability = filterByAvailability(products,user)
         setProducts(resultByAvailability)
     }
 
     const handleSortByLowestPrice =()=>{
-        let resultLowestPrice = sortByLowestPrice(products)
+        const resultLowestPrice = sortByLowestPrice(products)
         setProducts(resultLowestPrice)
     }
 
     const handleSortByhighestPrice =()=>{
-        let resultHighestPrice = sortByhighestPrice(products)
+        const resultHighestPrice = sortByhighestPrice(products)
         setProducts(resultHighestPrice)
     }
 

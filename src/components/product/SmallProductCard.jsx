@@ -1,5 +1,6 @@
 
 import "./Product.css";
+import React from "react";
 
 export const SmallProductCard =(props)=>{
     return(

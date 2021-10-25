@@ -10,9 +10,9 @@ export const Result =()=>{
         <main className="result flex-row">
             {
                 paginationList.currentData().length > 0 ?
-                paginationList.currentData().map((product, index) => 
+                paginationList.currentData().map((product) => 
                <ProductCard 
-                    key={index}
+                    // key={index}
                     id={product._id}
                     url={product.img.hdUrl}
                     name={product.name}
@@ -25,4 +25,3 @@ export const Result =()=>{
         </main>       
     )
 }  
-console.log(map(product,index));
