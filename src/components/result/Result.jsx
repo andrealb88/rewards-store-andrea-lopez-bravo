@@ -12,7 +12,7 @@ export const Result =()=>{
                 paginationList.currentData().length > 0 ?
                 paginationList.currentData().map((product) => 
                <ProductCard 
-                    // key={index}
+                    key={product._id}
                     id={product._id}
                     url={product.img.hdUrl}
                     name={product.name}

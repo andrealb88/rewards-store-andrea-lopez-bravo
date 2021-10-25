@@ -1,4 +1,4 @@
-import {BASE_URL, headers} from "./constants"
+import {BASE_URL, headers} from "./constant"
 
 //const bodyData = {`productId: ${productId}`}
 
