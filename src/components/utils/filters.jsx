@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const filterByAvailability =(list, user)=>{
     const resultByAvailability = [...list].filter ((product)=>{
