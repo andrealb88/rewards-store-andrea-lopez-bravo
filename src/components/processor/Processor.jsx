@@ -9,7 +9,7 @@ export const Selector =(props)=>{
     const handlePoint =(value)=>{
         console.log(handlePoint)
         morePoints(value)
-            .then ((data) => {y
+            .then ((data) => {
                 handlerAddPoint(value)
                 alert(data.message)
             })
