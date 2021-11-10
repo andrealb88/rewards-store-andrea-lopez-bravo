@@ -1,15 +1,15 @@
 import "./Processor.css";
 import React, { useContext, useEffect } from "react";
 import { AppContext } from "../../context/AppContext";
-import { addPoints } from "../../services/points";
+import { morePoints } from "../../services/points";
 import { getProducts } from "../../services/products"
 
 export const Selector =(props)=>{
     const { points, handlerAddPoint, setProducts} = useContext(AppContext);
     const handlePoint =(value)=>{
         console.log(handlePoint)
-        addPoints(value)
-            .then ((data) => {
+        morePoints(value)
+            .then ((data) => {y
                 handlerAddPoint(value)
                 alert(data.message)
             })

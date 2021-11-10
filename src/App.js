@@ -4,7 +4,7 @@ import { Header } from "./components/header/Header";
 import { Nav } from "./components/nav/Nav.jsx";
 import { getUser } from "./services/users";
 import { AppContext } from "./context/AppContext";
-// import { Notification } from "./components/notification/Notification";
+import { Notification } from "./components/notification/Notification";
 import { Router } from "./routers/Router";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
   }, [setUser]);
   return (
     <div className="App">
-      {/* <Notification /> */}
+      <Notification />
       <Nav />
       <Header />
       <Router />
