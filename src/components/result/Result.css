@@ -1,4 +1,4 @@
-.result-flex-flow {
+.result-flex-row {
   flex-wrap: wrap;
   justify-content: space-around;
   background: var(--lightgrey);
