@@ -17,7 +17,7 @@
 }
 .user-points {
   flex: 2;
-  justify-content: end;
+  justify-content: flex-end;
   display: flex;
   flex-direction: unset;
   margin-right: 4%;
