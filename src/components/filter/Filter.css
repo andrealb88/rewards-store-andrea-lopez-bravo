@@ -1,0 +1,17 @@
+.container-btn {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 1;
+  display: flex;
+}
+.container-btn-filter {
+  flex: 1;
+  justify-content: inherit;
+  display: flex;
+}
+.container-filter {
+  display: flwx;
+  align-items: center;
+  padding: 2% 0;
+  width: 100%;
+}
