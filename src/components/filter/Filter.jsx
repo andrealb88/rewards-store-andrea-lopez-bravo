@@ -26,7 +26,6 @@ export const Filter =()=>{
 
     const clearSort =()=>{
         getProducts()
-    console.log(getProducts)
             .then ((prod) => setProducts(prod))
     }
 

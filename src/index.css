@@ -23,3 +23,45 @@ code {
   --textLightGrey: #a3a3a3;
   --textDarkGrey: #616161;
 }
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.normal-text {
+  font-size: 15px;
+  color: var(--textDarkGrey);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 480px) {
+  .normal-text {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  .normal-text {
+    font-size: 24px;
+  }
+}
