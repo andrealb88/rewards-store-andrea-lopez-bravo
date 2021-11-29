@@ -6,7 +6,8 @@
 }
 .container-btn-filter {
   flex: 1;
-  justify-content: inherit;
+  justify-content: space-evenly;
+  padding: 2%;
   display: flex;
 }
 .container-filter {
