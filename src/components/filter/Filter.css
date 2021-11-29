@@ -6,8 +6,9 @@
 }
 .container-btn-filter {
   flex: 1;
-  justify-content: space-evenly;
-  padding: 2%;
+  justify-content: space-around;
+  /* padding: 2%; */
+  margin-left: -5%;
   display: flex;
 }
 .container-filter {
