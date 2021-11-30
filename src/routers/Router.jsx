@@ -5,7 +5,7 @@ import { Points } from "../pages/Points";
 import { NotFound } from "../components/notification/NotFound";
 import React from "react";
 
-export const Router = () => {
+export const Router  = () => {
   return (
     <Switch>
       <Route exact path="/rewards-store-andrea-lopez-bravo">
