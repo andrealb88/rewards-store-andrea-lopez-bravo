@@ -1,0 +1,29 @@
+.check {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid rgb(110, 232, 255);
+}
+
+.container-selector {
+  height: 85px;
+  width: 80%;
+}
+
+.radio {
+  width: 80px;
+  height: 25px;
+}
+
+.selector {
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+  border: none;
+  background: var(--white);
+  opacity: 0.5;
+}
+
+.selector:hover {
+  opacity: 1;
+}
