@@ -4,14 +4,16 @@ import { History } from "../pages/History";
 import { Points } from "../pages/Points";
 import { NotFound } from "../components/notification/NotFound";
 
+
  
  export const Router  = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/history" element={<History/>}/>
+      
+      <Route path="history" element={<History/>}/>
       <Route path="points" element={<Points/>}/>
       <Route path="NotFound" element={<NotFound/>} />
+      <Route path="*" element={<Home />} />
     </Routes>
   );
 };
