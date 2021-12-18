@@ -1,7 +1,7 @@
 import "./Header.css"
-import React from 'react'
+//import React from 'react'
 
-export const Header =(props)=>{
+export const Header =()=>{
     return(
         <header className="header">
         <img className="img-header"src="./images/header-x3.png"alt="headphones"/>

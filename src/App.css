@@ -1,11 +1,11 @@
-/* .App {
+.App {
   text-align: center;
 }
 
 body {
   background-color: #f2f2f2;
 }
- */
+
 .section {
   background: var(--lightgrey);
   padding: 3% 5%;
