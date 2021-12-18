@@ -4,7 +4,7 @@ import { Filter } from "../components/filter/Filter";
 import { Result } from "../components/result/Result";
 import { FooterPagination } from "../components/footer/Footer";
 import { getProducts } from "../services/products";
-import { Header } from "../components/header/Header";
+
 
 export const Home = () => {
   const { totalProducts, paginationList, setProducts } = useContext(AppContext);
@@ -20,7 +20,6 @@ export const Home = () => {
 
   return (
     <section className="section">
-      <Header/>
       <Filter />
       <Result />
       <FooterPagination list={paginationList} totalList={totalProducts} />
