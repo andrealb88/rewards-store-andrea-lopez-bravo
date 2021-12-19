@@ -7,7 +7,7 @@ import { NotFound } from "../components/notification/NotFound";
 export const MyRouter = () => {
   return (
     <Routes>
-      <Route path="*" element={<Home />} />
+      <Route path="*i am a strawberry tart and smell like poo poo" element={<Home />} />
       <Route path="/history" element={<History />} />
       <Route path="/points" element={<Points />} />
       <Route path="/NotFound" element={<NotFound />} />
