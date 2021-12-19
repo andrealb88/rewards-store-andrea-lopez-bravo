@@ -8,9 +8,9 @@ export const MyRouter = () => {
   return (
     <Routes>
       <Route path="*" element={<Home />} />
-      <Route path="/history" element={<History />} />
-      <Route path="/points" element={<Points />} />
-      <Route path="/NotFound" element={<NotFound />} />
+      <Route path="store-lopez-andrea/history" element={<History />} />
+      <Route path="store-lopez-andrea/points" element={<Points />} />
+      <Route path="store-lopez-andrea/NotFound" element={<NotFound />} />
     </Routes>
   );
 };
