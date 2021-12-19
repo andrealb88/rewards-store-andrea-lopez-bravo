@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Router,Routes, Route } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { History } from "../pages/History";
 import { Points } from "../pages/Points";
@@ -6,15 +6,17 @@ import { NotFound } from "../components/notification/NotFound";
 
 
  
- export const Router  = () => {
+ export const MyRouter  = () => {
   return (
-    <Routes>
-      
-      <Route path="history" element={<History/>}/>
-      <Route path="points" element={<Points/>}/>
-      <Route path="NotFound" element={<NotFound/>} />
-      <Route path="*" element={<Home />} />
+    <Router>
+        <Routes>
+      <Route path="/history" element={<History/>}/>
+      <Route path="/points" element={<Points/>}/>
+      <Route path="/NotFound" element={<NotFound/>} />
+      <Route path="/" element={<Home />} />
     </Routes>
+    </Router>
+  
   );
 };
  /* export const Router =()=>{

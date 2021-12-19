@@ -5,7 +5,7 @@ import { Nav } from "./components/nav/Nav.jsx";
 import { getUser } from "./services/users";
 import { AppContext } from "./context/AppContext";
 import { Notification } from "./components/notification/Notification";
-import { Router } from "./routers/Router";
+import { MyRouter } from "./routers/Router";
 
 function App() {
   const { setUser } = useContext(AppContext);
@@ -19,7 +19,7 @@ function App() {
       <Notification />
       <Nav />
       <Header />
-      <Router />
+      <MyRouter />
     </div>
   );
 }
