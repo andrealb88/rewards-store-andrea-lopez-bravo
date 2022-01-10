@@ -23,10 +23,17 @@
 }
 .username {
   margin-right: 2%;
+  margin-top: 3%;
 }
 .second {
   display: flex;
+  flex: 2 1;
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  justify-content: space-around;
 }
+
 @media (min-width: 600px) {
   .container-user {
     width: 240px;

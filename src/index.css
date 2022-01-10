@@ -44,7 +44,7 @@ button:hover {
 }
 
 .normal-text {
-  font-size: 14px;
+  font-size: 24px;
   color: var(--textDarkGrey);
 }
 
@@ -58,10 +58,20 @@ button:hover {
   .normal-text {
     font-size: 20px;
   }
+  .username {
+    margin-right: 2%;
+    margin-top: 3%;
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 600px) {
   .normal-text {
+    font-size: 24px;
+  }
+  .username {
+    margin-right: 2%;
+    margin-top: 3%;
     font-size: 24px;
   }
 }

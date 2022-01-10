@@ -14,8 +14,8 @@ export const Nav =() =>{
             <div className="user-points flex-row-center">
           
                 <div className="second">
-                    <div classname="part-1"> <h3 className="username">{user.name}</h3></div>
-               <div classname="part-2"><Details text={user.points} /></div>
+             <h3 className="username">{user.name}</h3>
+               <Details text={user.points} />
                </div>
                <Menu/>
             </div>
