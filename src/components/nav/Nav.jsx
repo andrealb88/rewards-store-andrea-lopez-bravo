@@ -12,9 +12,12 @@ export const Nav =() =>{
         <img src="./images/aerolab-logo.svg" alt="logo" />
             </div>
             <div className="user-points flex-row-center">
-                <h3 className="username">{user.name}</h3>
-                <Details text={user.points} />
-                <Menu/>
+          
+                <div className="second">
+                    <div classname="part-1"> <h3 className="username">{user.name}</h3></div>
+               <div classname="part-2"><Details text={user.points} /></div>
+               </div>
+               <Menu/>
             </div>
             </nav>
     )

@@ -11,7 +11,6 @@
 .container-logo {
   display: flex;
   align-items: center;
-  flex-grow: 2;
   flex-shrink: 1;
   flex-basis: 0%;
 }
@@ -19,12 +18,14 @@
   flex: 2;
   justify-content: flex-end;
   display: flex;
-  flex-direction: unset;
+  flex-direction: row-reverse;
   margin-right: 4%;
-  align-items: baseline;
 }
 .username {
   margin-right: 2%;
+}
+.second {
+  display: flex;
 }
 @media (min-width: 600px) {
   .container-user {
@@ -34,7 +35,7 @@
 
 @media (min-width: 750px) {
   .container-logo {
-    flex: 2;
+    flex: 1;
   }
 }
 
