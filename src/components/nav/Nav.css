@@ -4,7 +4,7 @@
   background: white;
   position: fixed;
   width: 100%;
-  height: 7%;
+  height: 9%;
   z-index: 9999;
   padding: 1% 2%;
 }
@@ -29,6 +29,7 @@
   flex-shrink: 1;
   flex-basis: 0%;
   justify-content: space-around;
+  align-items: center;
 }
 
 @media (min-width: 600px) {
@@ -43,7 +44,7 @@
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 8500px) {
   .user-points {
     flex: 1.5;
   }
