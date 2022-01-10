@@ -43,11 +43,6 @@ button:hover {
   flex-direction: row;
 }
 
-.normal-text {
-  font-size: 24px;
-  color: var(--textDarkGrey);
-}
-
 .center {
   display: flex;
   justify-content: center;
@@ -56,22 +51,22 @@ button:hover {
 
 @media (min-width: 480px) {
   .normal-text {
-    font-size: 20px;
+    font-size: 18px;
   }
   .username {
     margin-right: 2%;
     margin-top: 3%;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 600px) {
   .normal-text {
-    font-size: 24px;
+    font-size: 22px;
   }
   .username {
     margin-right: 2%;
     margin-top: 3%;
-    font-size: 24px;
+    font-size: 22px;
   }
 }

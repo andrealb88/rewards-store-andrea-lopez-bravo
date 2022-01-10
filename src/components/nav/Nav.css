@@ -21,10 +21,7 @@
   flex-direction: row-reverse;
   margin-right: 4%;
 }
-.username {
-  margin-right: 2%;
-  margin-top: 3%;
-}
+
 .second {
   display: flex;
   flex: 2 1;
@@ -49,5 +46,15 @@
 @media (min-width: 800px) {
   .user-points {
     flex: 1.5;
+  }
+  .username {
+    margin-right: 2%;
+    margin-top: 3%;
+    font-size: 24px;
+  }
+
+  .normal-text {
+    font-size: 24px;
+    color: var(--textDarkGrey);
   }
 }
