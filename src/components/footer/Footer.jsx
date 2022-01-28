@@ -12,7 +12,7 @@ export const FooterPagination =(props)=>{
         <a href="https://www.instagram.com/">
           <img
             className="icono-footer"
-            src="./assets/svg/instagram.svg"
+            src="./images/instagram.svg"
             height="15"
             alt="icono-footer"
           />
@@ -20,7 +20,7 @@ export const FooterPagination =(props)=>{
         <a href="https://twitter.com">
           <img
             className="icono-footer"
-            src="./assets/svg/twitter.svg"
+            src="./images/twitter.svg"
             height="15"
             alt="icono-footer"
           />
@@ -28,7 +28,7 @@ export const FooterPagination =(props)=>{
         <a href="https://facebook.com">
           <img
             className="icono-footer"
-            src="./assets/svg/facebook.svg"
+            src="./images/facebook.svg"
             height="15"
             alt="icono-footer"
           />
@@ -36,7 +36,7 @@ export const FooterPagination =(props)=>{
         <a href="https://telegram.org/">
           <img
             className="icono-footer"
-            src="./assets/svg/telegram.svg"
+            src="./images/telegram.svg"
             height="15"
             alt="icono-footer"
           />
