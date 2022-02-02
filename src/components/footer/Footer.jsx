@@ -7,6 +7,7 @@ export const FooterPagination =(props)=>{
         <footer className="footer flex-row">
             <h3 className="normal-text">{props.list.currentData().length} of {props.totalList} products</h3>
             <Pagination list={props.list}/>
+            <div className="right-footer">
             <div className="text-footer font-roboto-footer">Copyright ©</div>
       <div className="container-icono-footer">
         <a href="https://www.instagram.com/">
@@ -41,6 +42,7 @@ export const FooterPagination =(props)=>{
             alt="icono-footer"
           />
         </a>
+      </div>
       </div>
         </footer>
     )
