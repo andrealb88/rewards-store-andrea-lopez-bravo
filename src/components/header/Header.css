@@ -50,20 +50,37 @@
 
 .title {
   color: var(--white);
-  font-size: 40px;
+  font-size: 24px;
   transform: translateY(-135%);
+  font-family: "Source Sans Pro", sans-serif;
   z-index: 9999;
   margin-left: 10%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .header {
     height: 260px;
+  }
+  .title {
+    color: var(--white);
+    font-size: 28px;
+    transform: translateY(-135%);
+    font-family: "Source Sans Pro", sans-serif;
+    z-index: 9999;
+    margin-left: 10%;
   }
 }
 
 @media (min-width: 1000px) {
   .header {
     height: 365px;
+  }
+  .title {
+    color: var(--white);
+    font-size: 40px;
+    font-family: "Source Sans Pro", sans-serif;
+    transform: translateY(-135%);
+    z-index: 9999;
+    margin-left: 10%;
   }
 }
