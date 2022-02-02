@@ -63,11 +63,11 @@
   }
   .title {
     color: var(--white);
-    font-size: 28px;
-    transform: translateY(-135%);
+    font-size: 30px;
+    transform: translateY(-333%);
     font-family: "Source Sans Pro", sans-serif;
     z-index: 9999;
-    margin-left: 10%;
+    margin-left: -71%;
   }
 }
 
@@ -79,8 +79,8 @@
     color: var(--white);
     font-size: 40px;
     font-family: "Source Sans Pro", sans-serif;
-    transform: translateY(-135%);
+    transform: translateY(-333%);
     z-index: 9999;
-    margin-left: 10%;
+    margin-left: -71%;
   }
 }
