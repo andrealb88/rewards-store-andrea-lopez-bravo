@@ -10,7 +10,7 @@
 .product {
   width: 276px;
   height: 276px;
-  margin: 1%;
+  margin: 2%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   background: var(--white);
 }
