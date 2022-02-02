@@ -1,5 +1,10 @@
 .footer {
   border-bottom: 1.5px solid var(--grey);
-  justify-content: space-between;
   padding: 2% 0;
+  justify-content: space-around;
+  display: flex;
+}
+.right-footer {
+  display: flex;
+  align-items: center;
 }
