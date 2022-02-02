@@ -1,5 +1,6 @@
 import React from "react";
 import { Pagination } from "../pagination/Pagination";
+import "./Footer.css";
 
 export const FooterPagination =(props)=>{
 
