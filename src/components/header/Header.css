@@ -48,7 +48,7 @@
   object-fit: cover;
 }
 
-.title {
+.principal-text {
   color: var(--white);
   font-size: 24px;
   transform: translateY(-268%);
@@ -60,7 +60,7 @@
   .header {
     height: 260px;
   }
-  .title {
+  .principal-text {
     color: var(--white);
     font-size: 30px;
     transform: translateY(-333%);
@@ -74,7 +74,7 @@
   .header {
     height: 365px;
   }
-  .title {
+  .principal-text {
     color: var(--white);
     font-size: 40px;
     font-family: "Source Sans Pro", sans-serif;
