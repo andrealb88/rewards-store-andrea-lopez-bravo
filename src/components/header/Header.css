@@ -51,10 +51,9 @@
 .title {
   color: var(--white);
   font-size: 24px;
-  transform: translateY(-135%);
+  transform: translateY(-268%);
   font-family: "Source Sans Pro", sans-serif;
   z-index: 9999;
-  margin-left: 10%;
 }
 
 @media (min-width: 700px) {
