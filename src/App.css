@@ -8,8 +8,8 @@ body {
 
 .section {
   background: var(--lightgrey);
-  padding: 3% 5%;
-  width: fit-content;
+  padding: 1% 5%;
+  width: 80%;
 }
 
 .modal {
