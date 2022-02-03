@@ -12,12 +12,10 @@ export const Selector =(props)=>{
                 handlerAddPoint(value)
                 alert(data.message)
             })
-            //useEffect(()=>{
             getProducts()
             .then ((prod) => {
               setProducts(prod)
               })
-        //}, [])
             }
     return(
         <div className="container-selector flex-row center">

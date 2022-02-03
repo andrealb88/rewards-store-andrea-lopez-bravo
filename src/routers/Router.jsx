@@ -16,21 +16,3 @@ export const MyRouter = () => {
     </div>
   );
 };
-/* export const Router =()=>{
-   return (
-   <Switch>
-                <Route exact path="/acamica-rewards-store">
-               <Home />
-           </Route>
-          <Route path="/acamica-rewards-store/history">
-                 <History />
-           </Route>
-         <Route path="/acamica-rewards-store/points">
-              <Points />
-          </Route>
-           <Route path="*">
-               <NotFound />
-           </Route>
-       </Switch> 
-       )
-   } */
